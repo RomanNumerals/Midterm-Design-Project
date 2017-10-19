@@ -1,0 +1,90 @@
+body {
+    max-width: 320px;
+}
+.under-hero {
+    background-color: #ffc400;
+    width: 100%;
+    height: 100%;
+}
+.line {
+    width: 95%;
+    height: 2px;
+    background-color: #ee3e28;
+    margin: 0 auto;
+}
+.statement {
+    color: #4e1c07;
+    font-size: 20px;
+    padding: 25px 25px 15px 30px;
+    line-height: 1.8;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Droid Serif', serif, Times;
+}
+.info {
+    color: #021d2c;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1.5em;
+    font-family: 'Droid Serif', serif, Times;
+}
+.meetup {
+    color: #eb503c;
+    padding: 30px 0 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lato', Arial, sans-serif, serif, Times;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+.meetup-type {
+    @extend .statement;
+    line-height: 1.5;
+    padding: 10px 0 80px 26px;
+}
+.uc-event {
+    color: #4c1a14;
+    font-size: 20px;
+    font-family: 'Droid Serif', serif, Times;
+    letter-spacing: 1px;
+    padding: 0 0 0 25px;
+    text-overflow: auto;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.date {
+    font-family: 'Lato', Arial, serif, Times;
+    font-size: 18px;
+    color: #021d2c;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: .9;
+    text-align: left;
+    padding: 0 0 0 26px;
+}
+.location {
+    font-family: 'Lato', Arial, serif, Times;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: .8;
+    text-align: left;
+    color: #021d2c;
+    padding: 0 0 0 26px;
+}
+.r-link {
+    font-family: 'Lato', Arial, serif, Times;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline;
+    letter-spacing: .2px;
+    padding: 10px 25px 150px 25px;
+}
+.box {
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.override {
+    text-decoration: none;
+    color: #4e1c07;
+}
