@@ -1,5 +1,5 @@
 body {
-    max-width: 320px;
+    width: 100%;
 }
 .under-hero {
     background-color: #ffc400;
@@ -72,19 +72,77 @@ body {
     color: #021d2c;
     padding: 0 0 0 26px;
 }
-.r-link {
-    font-family: 'Lato', Arial, serif, Times;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline;
-    letter-spacing: .2px;
-    padding: 10px 25px 150px 25px;
+.core {
+    padding: 50px 0px 80px 30px;
+    h2 {
+        font-size: 21px;
+        line-height: 28px;
+        font-weight: bold;
+        font-family: 'Droid Serif', serif, sans-serif;
+        color: #4e1c07;
+    }
+    h3 {
+        font-family: 'Droid Serif', serif, sans-serif;
+        font-style: italic;
+        color: #021d2c;
+        font-weight: bold;
+        line-height: 2.0;
+        font-size: 18px;
+    }
+    p {
+        color: #021d2c;
+        font-size: 16px;
+        padding: 0 0 10px 0;
+        font-weight: bold;
+        font-family: 'Droid Serif', serif, Times;
+    }
 }
-.box {
-    padding-bottom: 80px;
-    padding-top: 20px;
+.ethics {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: bold;
+        font-family: 'Droid Serif', serif, sans-serif;
+        color: #4e1c07;
+        padding: 0 0 30px 30px;
+    }
+    p {
+        color: #021d2c;
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 0 70px 20px 30px;
+        font-family: 'Droid Serif', serif, Times;
+    }
+    ol {
+        color: #021d2c;
+        font-size: 18px;
+        line-height: 1.5;
+        list-style-type: decimal;
+        list-style-position: inside;
+        padding: 0 60px 20px 30px;
+        font-family: 'Droid Serif', serif, Times;
+    }
+    .ethic-style {
+        color: #021d2c;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 0 70px 20px 30px;
+        font-family: 'Droid Serif', serif, Times;
+    }
 }
-.override {
-    text-decoration: none;
-    color: #4e1c07;
+.tl-blurb {
+    height: 100%;
+    weight: 100%;
+    padding: 50px 20px 100px 30px;
+    p {
+        color: #021d2c;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: left;
+        font-family: 'Droid Serif', serif, Times;
+    }
 }
