@@ -22,3 +22,50 @@ header {
     font-weight: 900;
     line-height: 2.5;
 }
+
+/* From this point down I needed Stefens code because of
+the struggles I had with it in the beginning. I will try one
+with javascript on my own. Shout out to Stefen*/
+
+.bar {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+.burger {
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+    margin: auto;
+    cursor: pointer;
+}
+.dropmenu {
+    display: none;
+    height: auto;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background-color: #ffab00;
+    min-width: 200px;
+    z-index: 1;
+    text-align: center;
+    border: 2px solid black;
+}
+.menulinks {
+    display: block;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 20px 0 5px;
+    color: #064159;
+}
+.nav {
+    height: auto;
+    width: auto;
+    margin: 10px 20px 0 60px;
+    position: relative;
+    display: inline-block;
+}
+.nav:hover .dropmenu {
+    display: block;
+}
